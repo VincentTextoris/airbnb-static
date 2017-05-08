@@ -33,19 +33,31 @@ img {
   justify-content: space-between;
   margin-top: 100px;
   margin-bottom: 100px;
+    h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 15px;
+      font: lighter;
+    }
 }
 
-.icon h2 {
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-
-.icon p {
-  font-size: 15px;
-  font: lighter;
-}
 
 .form{
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.background_image {
+  height: 50vh;
+  width: 100vw;
+}
+
+.flat_banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

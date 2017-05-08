@@ -2,6 +2,7 @@
 anne:
   owner_name: Anne Sansnom
   picture: card-brussels.png
+  background_image: brussels-wallpaper.jpg
   owner_picture: anne.png
   name: Anne's home
   summary: Lovely house
@@ -23,6 +24,7 @@ anne:
 seb:
   owner_name: Sebastien Saunier
   picture: card-paris.png
+  background_image: paris-wallpaper.jpeg
   owner_picture: seb.png
   name: Seb's home
   summary: Charming room in Montmartre
@@ -43,6 +45,7 @@ seb:
 romain:
   owner_name: Romain Paillard
   picture: card-london.png
+  background_image: london-wallpaper.jpeg
   owner_picture: romain.png
   name: Romain's home
   summary: Nice flat in Piccadilly
@@ -59,6 +62,3 @@ romain:
   room_type: room
   kitchen: true
   swimming_pool: true
-
-
-

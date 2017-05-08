@@ -46,75 +46,25 @@ title: Le Wagon Middleman boilerplate
       </div>
     </div>
 
-
-
     <!-- Your cards code -->
-
-    <div class="container">
+       <div class="container">
       <div class="row">
         <% data.flats.each do |owner, flat| %>
           <div class="col-xs-12 col-sm-4">
-            <% link_to "flats/#{owner}.html", class: "card card-link" do %>
               <div class="card" style="background-image: url('<%= image_path flat.picture %>');">
-              <div class="card-category"><%= flat.city %></div>
-              <div class="card-description">
-                <h2><%= flat.name %></h2>
-                <p><%= flat.summary %></p>
-              </div>
+                <div class="card-category"><%= flat.city %></div>
+                <div class="card-description">
+                  <h2><%= flat.name %></h2>
+                  <p><%= flat.summary %></p>
+                </div>
                 <%= image_tag flat.owner_picture, class: "card-user avatar avatar-large" %>
+                <%= link_to "", "flats/#{owner}.html", class: "card-link" %>
               </div>
-            <% end %>
           </div>
         <% end %>
       </div>
     </div>
 
-
-<!--
-
-    <div class="wrapper-grey text-center">
-      <div class="container">
-        <h2>Your next trip</h2>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <div class="card card-link" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-brussels.png');">
-              <div class="card-category">Brussel</div>
-              <div class="card-description">
-                <h2>Anne's home</h2>
-                <p>Lovely house</p>
-              </div>
-              <% link_to "team.html" do %>
-                <%= image_tag "anne.png", class: "card-user avatar-large" %>
-              <% end %>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card card-link" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-paris.png');">
-              <div class="card-category">Paris</div>
-              <div class="card-description">
-                <h2>Seb's home</h2>
-                <p>Charming room with patio</p>
-              </div>
-              <% link_to "team.html" do %>
-                <%= image_tag "seb.png", class: "card-user avatar-large" %>
-              <% end %>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card card-link" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-london.png');">
-              <div class="card-category">London</div>
-              <div class="card-description">
-                <h2>Romain's home</h2>
-                <p>Nice flat in picadilly</p>
-              </div>
-              <% link_to "team.html" do %>
-                <%= image_tag "romain.png", class: "card-user avatar-large" %>
-              <% end %>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <!-- Your newsletter code -->
     <div class="container text-center">
