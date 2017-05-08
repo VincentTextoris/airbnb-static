@@ -49,6 +49,29 @@ title: Le Wagon Middleman boilerplate
 
 
     <!-- Your cards code -->
+
+    <div class="container">
+      <div class="row">
+        <% data.flats.each do |owner, flat| %>
+          <div class="col-xs-12 col-sm-4">
+            <% link_to "flats/#{owner}.html", class: "card card-link" do %>
+              <div class="card" style="background-image: url('<%= image_path flat.picture %>');">
+              <div class="card-category"><%= flat.city %></div>
+              <div class="card-description">
+                <h2><%= flat.name %></h2>
+                <p><%= flat.summary %></p>
+              </div>
+                <%= image_tag flat.owner_picture, class: "card-user avatar avatar-large" %>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+
+
+<!--
+
     <div class="wrapper-grey text-center">
       <div class="container">
         <h2>Your next trip</h2>
@@ -91,7 +114,7 @@ title: Le Wagon Middleman boilerplate
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Your newsletter code -->
     <div class="container text-center">

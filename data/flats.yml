@@ -1,0 +1,64 @@
+
+anne:
+  owner_name: Anne Sansnom
+  picture: card-brussels.png
+  owner_picture: anne.png
+  name: Anne's home
+  summary: Lovely house
+  city: Brussel, Belgium
+  wifi: false
+  welcome_drink: true
+  tv: false
+  accomodates: 1
+  bathrooms: 1
+  bed_type: Real bed
+  bedrooms: 1
+  beds: 1
+  property_type: Apartment
+  room_type: entire apartment
+  kitchen: true
+  swimming_pool: false
+
+
+seb:
+  owner_name: Sebastien Saunier
+  picture: card-paris.png
+  owner_picture: seb.png
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+  welcome_drink: true
+  tv: false
+  accomodates: 5
+  bathrooms: 2
+  bed_type: Real bed
+  bedrooms: 3
+  beds: 3
+  property_type: Chalet
+  room_type: entire home
+  kitchen: true
+  swimming_pool: true
+
+romain:
+  owner_name: Romain Paillard
+  picture: card-london.png
+  owner_picture: romain.png
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+  welcome_drink: true
+  tv: true
+  accomodates: 2
+  bathrooms: 1
+  bed_type: Real bed
+  bedrooms: 0
+  beds: 1
+  property_type: Home
+  room_type: room
+  kitchen: true
+  swimming_pool: true
+
+
+
