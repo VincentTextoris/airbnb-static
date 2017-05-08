@@ -11,8 +11,7 @@
 
 .footer .logo {
   padding-right: 30px;
-}
-
-.footer .logo:hover {
-  color: $yellow;
+    &:hover {
+      color: $yellow;
+    }
 }
