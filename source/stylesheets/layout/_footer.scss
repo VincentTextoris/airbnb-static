@@ -1,7 +1,7 @@
 .footer {
-  background: #262626;
+  background: $gray-dark;
   height: 100px;
-  color: lightgrey;
+  color: $gray-lighter;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,5 +14,5 @@
 }
 
 .footer .logo:hover {
-  color: yellow;
+  color: $yellow;
 }
